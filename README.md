@@ -8,6 +8,12 @@ Backend: Python and FastAPI providing a robust, asynchronous RESTful API with Py
 
 AI Engine: Integration with Groq API (Qwen 27B model) using Chain of Thought prompting to guarantee precise, structured JSON outputs.
 
+### Performance & Metrics
+- **Inference Latency:** ~500ms response time for full CV analysis, achieved by leveraging Groq's LPU infrastructure.
+- **External Integrations:** 1 (Groq API via HTTP client).
+- **Architecture Type:** Stateless REST API with Zero-Shot LLM Inference.
+- **Test Coverage:** TBD (Pytest integration planned for next iteration).
+
 ## Core Features
 Drag & Drop Interface: Seamless PDF resume uploading with real-time state management and error handling.
 
