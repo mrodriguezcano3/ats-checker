@@ -1,4 +1,5 @@
-import { useState, DragEvent, ChangeEvent } from 'react';
+import { useState } from 'react';
+import type { DragEvent, ChangeEvent } from 'react';
 import { uploadCV } from '../services/api';
 
 // 1. Definimos la interfaz para recibir la función del componente padre
